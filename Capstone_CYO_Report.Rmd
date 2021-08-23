@@ -56,8 +56,12 @@ First we check for any NA value.
 anyNA(crypto_hist)
 ```
 General overview of dataset:   
+Structure.    
 ```{r}
 str(crypto_hist)
+```
+Head.    
+```{r}
 head(crypto_hist) %>% knitr::kable()
 ```
 After loading the data set we start by looking at the data structure and type we can see that there is 37,082 observations and 10 variables.     
